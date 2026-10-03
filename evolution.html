@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Evolution of HTTP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>The Evolution of HTTP</h1>
+        <p>How HTTP changed from a simple protocol to the modern web</p>
+    </header>
+
+    <!-- Main navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="understanding-http.html">Understanding HTTP</a>
+        <a href="evolution.html">HTTP Evolution</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a href="references.html">Resources</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+
+        <!-- Introduction to the history of HTTP -->
+        <section>
+            <h2>Where HTTP Came From</h2>
+
+            <p>
+                HTTP was created as part of the development of the World Wide Web.
+                Tim Berners-Lee developed the early web while working at CERN.
+                The early web brought together technologies such as HTML, URLs,
+                and HTTP so that people could access and share information.
+            </p>
+
+            <p>
+                The first version of HTTP was very simple because early websites
+                were mostly basic text documents. As websites became more complex,
+                HTTP had to change to support the growing needs of the web.
+            </p>
+        </section>
+
+        <!-- Early versions of HTTP -->
+        <section>
+            <h2>HTTP/0.9 and HTTP/1.0</h2>
+
+            <h3>HTTP/0.9</h3>
+            <p>
+                HTTP/0.9 was the earliest version of HTTP. It was designed for
+                a very simple web and mainly allowed a client to request an HTML
+                document from a server. It did not include many of the features
+                found in modern HTTP.
+            </p>
+
+            <h3>HTTP/1.0</h3>
+            <p>
+                HTTP/1.0 added more features to web communication. It supported
+                additional request methods, status codes, headers, and different
+                types of content. HTTP/1.0 was documented in RFC 1945 in 1996.
+            </p>
+        </section>
+
+        <!-- HTTP/1.1 improvements -->
+        <section>
+            <h2>HTTP/1.1</h2>
+
+            <p>
+                HTTP/1.1 was introduced in 1997 and became an important version
+                of HTTP for the growing World Wide Web. One major improvement was
+                the ability to reuse connections instead of creating a completely
+                new connection for every request.
+            </p>
+
+            <p>
+                HTTP/1.1 also improved features such as caching, hosting multiple
+                websites on one server, and transferring data. These improvements
+                helped HTTP support websites that were becoming larger and more
+                complicated.
+            </p>
+        </section>
+
+        <!-- HTTP/2 improvements -->
+        <section>
+            <h2>HTTP/2</h2>
+
+            <p>
+                HTTP/2 was introduced in 2015 to improve web performance. Modern
+                webpages often need many files, such as HTML, images, style sheets,
+                and other resources.
+            </p>
+
+            <p>
+                One important feature of HTTP/2 is multiplexing. Multiplexing
+                allows multiple streams of information to share one connection.
+                HTTP/2 also introduced features such as header compression and
+                binary framing to make communication more efficient.
+            </p>
+        </section>
+
+        <!-- HTTP/3 and QUIC -->
+        <section>
+            <h2>HTTP/3</h2>
+
+            <p>
+                HTTP/3 is the newest major version covered in this project.
+                HTTP/1.1 and HTTP/2 use TCP for their connections, while HTTP/3
+                uses a newer transport protocol called QUIC.
+            </p>
+
+            <p>
+                QUIC supports multiple independent streams and was designed to
+                improve the speed and reliability of web communication. It can
+                also help maintain a connection when a device changes networks,
+                such as moving from Wi-Fi to a cellular network.
+            </p>
+        </section>
+
+        <!-- Table comparing major versions of HTTP -->
+        <section>
+            <h2>Comparing HTTP Versions</h2>
+
+            <p>
+                The table below shows some of the major differences between
+                HTTP/1.1, HTTP/2, and HTTP/3.
+            </p>
+
+            <table>
+                <tr>
+                    <th>Feature</th>
+                    <th>HTTP/1.1</th>
+                    <th>HTTP/2</th>
+                    <th>HTTP/3</th>
+                </tr>
+
+                <tr>
+                    <td>Introduced</td>
+                    <td>1997</td>
+                    <td>2015</td>
+                    <td>2022</td>
+                </tr>
+
+                <tr>
+                    <td>Transport</td>
+                    <td>TCP</td>
+                    <td>TCP</td>
+                    <td>QUIC</td>
+                </tr>
+
+                <tr>
+                    <td>Multiplexing</td>
+                    <td>No</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+
+                <tr>
+                    <td>Main Improvement</td>
+                    <td>Connection reuse</td>
+                    <td>Multiple streams</td>
+                    <td>QUIC transport</td>
+                </tr>
+            </table>
+        </section>
+
+    </main>
+
+    <!-- Footer with class project information -->
+    <footer>
+        <p>
+            This website is a class project for
+            <a href="https://ksuweb.github.io/IT3203/">IT 3203: Introduction to Web Development</a>.
+        </p>
+        <p>&copy; 2026 Jefferson Rosete</p>
+    </footer>
+
+</body>
+
+</html>

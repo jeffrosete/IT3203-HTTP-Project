@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Understanding HTTP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Understanding HTTP</h1>
+        <p>How browsers and web servers communicate</p>
+    </header>
+
+    <!-- Main navigation -->
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="understanding-http.html">Understanding HTTP</a>
+        <a href="evolution.html">HTTP Evolution</a>
+        <a href="concepts.html">Key Concepts</a>
+        <a href="references.html">Resources</a>
+        <a href="about.html">About</a>
+    </nav>
+
+    <main>
+
+        <!-- Basic explanation of clients and servers -->
+        <section>
+            <h2>The Client and Server</h2>
+
+            <p>
+                HTTP communication usually takes place between a client and a server.
+                The client asks for information, and the server responds to the request.
+            </p>
+
+            <p>
+                A web browser such as Chrome, Firefox, or Safari is an example of a
+                client. When you enter a website address, the browser sends a request
+                to the server that hosts the website. The server processes the request
+                and sends the requested information back to the browser.
+            </p>
+        </section>
+
+        <!-- Diagram showing communication between a client and server -->
+        <section>
+            <h2>Client and Server Communication</h2>
+
+            <p>
+                The diagram below shows how a client sends an HTTP request to a
+                web server and how the server sends an HTTP response back to the client.
+            </p>
+
+            <img src="images/client-server.png"
+                 alt="Diagram showing an HTTP request from a web browser to a server and an HTTP response returning to the browser">
+        </section>
+
+        <!-- Explanation of HTTP requests and responses -->
+        <section>
+            <h2>HTTP Requests and Responses</h2>
+
+            <p>
+                HTTP communication works through requests and responses. A client
+                sends an HTTP request to a server, and the server sends an HTTP
+                response back to the client.
+            </p>
+
+            <h3>HTTP Request</h3>
+            <p>
+                A request tells the server what the client wants. It can include a
+                method, the requested resource, and additional information called
+                headers.
+            </p>
+
+            <h3>HTTP Response</h3>
+            <p>
+                A response tells the client what happened after the request was
+                processed. It can include a status code, headers, and the requested
+                content.
+            </p>
+        </section>
+
+        <!-- Common HTTP methods -->
+        <section>
+            <h2>Common HTTP Methods</h2>
+
+            <p>
+                HTTP methods tell a server what type of action the client wants
+                to perform. Some common HTTP methods include:
+            </p>
+
+            <ul>
+                <li><strong>GET:</strong> Requests information or a resource from a server.</li>
+                <li><strong>POST:</strong> Sends new information to a server.</li>
+                <li><strong>PUT:</strong> Updates or replaces information on a server.</li>
+                <li><strong>DELETE:</strong> Requests that information or a resource be removed.</li>
+            </ul>
+        </section>
+
+        <!-- Common HTTP status codes -->
+        <section>
+            <h2>HTTP Status Codes</h2>
+
+            <p>
+                HTTP status codes are numbers included in a server's response.
+                They help the client understand whether a request was successful
+                or whether a problem occurred.
+            </p>
+
+            <ul>
+                <li><strong>200 OK:</strong> The request was successful.</li>
+                <li><strong>301 Moved Permanently:</strong> The resource has moved to another location.</li>
+                <li><strong>404 Not Found:</strong> The requested resource could not be found.</li>
+                <li><strong>500 Internal Server Error:</strong> The server experienced an error.</li>
+            </ul>
+        </section>
+
+        <!-- Simple example of an HTTP request and response -->
+        <section>
+            <h2>A Simple HTTP Example</h2>
+
+            <p>
+                Imagine that you enter a website address into your browser. Your
+                browser might send a request similar to:
+            </p>
+
+            <pre>GET /index.html HTTP/1.1</pre>
+
+            <p>
+                If the server successfully finds the page, part of its response
+                might look like:
+            </p>
+
+            <pre>HTTP/1.1 200 OK</pre>
+
+            <p>
+                The server can then send the webpage content back to the browser,
+                which displays it on your screen.
+            </p>
+        </section>
+
+    </main>
+
+    <!-- Footer with class project information -->
+    <footer>
+        <p>
+            This website is a class project for
+            <a href="https://ksuweb.github.io/IT3203/">IT 3203: Introduction to Web Development</a>.
+        </p>
+        <p>&copy; 2026 Jefferson Rosete</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+/* Basic style for the entire website */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #222222;
+    margin: 0;
+}
+
+/* Style for the top header of each page */
+header {
+    background-color: #1f4e79;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main navigation bar uses Flexbox */
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    padding: 10px;
+}
+
+/* Style for links inside the navigation bar */
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+/* Changes navigation links when the mouse is over them */
+nav a:hover {
+    background-color: #1f4e79;
+}
+
+/* Main content area */
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+/* Adds space between sections of content */
+section {
+    margin-bottom: 30px;
+}
+
+/* Style for the footer at the bottom of each page */
+footer {
+    background-color: #333333;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* Style for links inside the footer */
+footer a {
+    color: white;
+}
+
+/* Basic style for tables */
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Adds borders and spacing to table cells */
+th, td {
+    border: 1px solid #999999;
+    padding: 8px;
+    text-align: left;
+}
+
+/* Style for table headings */
+th {
+    background-color: #dddddd;
+}
+
+/* Keeps images from becoming wider than the page */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Highlights important introductory text */
+.intro {
+    font-size: 18px;
+    border-left: 4px solid #1f4e79;
+    padding-left: 10px;
+}
+
+/* Special style for the main title on the homepage */
+#main-title {
+    letter-spacing: 2px;
+}
+
+/* Style for regular links on the website */
+main a {
+    color: #1f4e79;
+}
+
+/* Hover effect for links in the main content */
+main a:hover {
+    color: #333333;
+}
+
+/* Style for section headings */
+h2 {
+    color: #1f4e79;
+}
